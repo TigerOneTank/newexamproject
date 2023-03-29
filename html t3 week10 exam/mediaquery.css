@@ -1,0 +1,42 @@
+@media screen and (min-width: 762px) {
+
+    .maincontent {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .maincontent {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1050px) {
+	/* Header styles */
+	header {
+		padding: 40px;
+	}
+
+	nav ul{
+		flex-wrap: nowrap;
+        display: block;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	.news-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
